@@ -8,24 +8,24 @@ Run the server on the machine you would like to track activity on and follow act
 install 
 ``` 
 git clone https://github.com/klakdev/nodeUSBTracking.git
-cd nodeUSBTracking
+cd ./nodeUSBTracking
 npm install
-
 ``` 
 install web application
 ```
-cd web
+cd ./web
 npm install
 ```
 ##usage
 run server 
 ```
+cd ..
 npm start
 ```
 
-start web server
+run client on development mode
 ```
-npm start-client
+npm run start-client-dev
 ```
 Go to http://localhost:3000
 

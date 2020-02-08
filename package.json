@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node ./api/http_server.js",
-    "start-client": "cd web && npm start"
+    "start-client-dev": "cd web && npm start"
   },
   "author": "Yaki Klein",
   "license": "MIT",
