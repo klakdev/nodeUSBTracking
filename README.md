@@ -16,7 +16,7 @@ install web application
 cd ./web
 npm install
 ```
-##usage
+## Usage
 run server 
 ```
 cd ..
