@@ -1,0 +1,19 @@
+{
+  "name": "usb-trace",
+  "version": "0.0.1",
+  "description": "A utility to monitor usb connections on a computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./api/http_server.js",
+    "start-client": "cd web && npm start"
+  },
+  "author": "Yaki Klein",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@material-ui/core": "^4.9.1",
+    "express": "^4.17.1",
+    "usb": "^1.6.2"
+  }
+}
